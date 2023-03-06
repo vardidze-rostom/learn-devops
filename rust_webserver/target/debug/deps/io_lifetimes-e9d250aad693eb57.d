@@ -1,0 +1,12 @@
+/home/ivanp/VS_CODE/rust_webserver/target/debug/deps/io_lifetimes-e9d250aad693eb57.rmeta: /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/lib.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/portability.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/traits.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/example_ffi.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/raw.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/views.rs
+
+/home/ivanp/VS_CODE/rust_webserver/target/debug/deps/libio_lifetimes-e9d250aad693eb57.rlib: /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/lib.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/portability.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/traits.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/example_ffi.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/raw.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/views.rs
+
+/home/ivanp/VS_CODE/rust_webserver/target/debug/deps/io_lifetimes-e9d250aad693eb57.d: /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/lib.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/portability.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/traits.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/example_ffi.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/raw.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/views.rs
+
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/lib.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/portability.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/traits.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/example_ffi.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/raw.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/io-lifetimes-1.0.5/src/views.rs:

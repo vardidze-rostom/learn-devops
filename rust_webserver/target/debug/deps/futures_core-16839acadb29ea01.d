@@ -1,0 +1,11 @@
+/home/ivanp/VS_CODE/rust_webserver/target/debug/deps/futures_core-16839acadb29ea01.rmeta: /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/lib.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/future.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/stream.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/mod.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/poll.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/__internal/mod.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/__internal/atomic_waker.rs
+
+/home/ivanp/VS_CODE/rust_webserver/target/debug/deps/futures_core-16839acadb29ea01.d: /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/lib.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/future.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/stream.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/mod.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/poll.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/__internal/mod.rs /home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/__internal/atomic_waker.rs
+
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/lib.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/future.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/stream.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/mod.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/poll.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/__internal/mod.rs:
+/home/ivanp/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.26/src/task/__internal/atomic_waker.rs:

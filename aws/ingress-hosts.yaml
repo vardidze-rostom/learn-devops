@@ -3,7 +3,12 @@ kind: Ingress
 metadata:
   name: minimal-ingress
   annotations:
+    alb.ingress.kubernetes.io/load-balancer-name: my-lbn
     nginx.ingress.kubernetes.io/rewrite-target: /
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    kubernetes.io/tls-acme: "true"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:eu-central-1:031783097622:certificate/8a65a0eb-2a16-4065-8dcc-bab6bee25f95
 spec:
   ingressClassName: nginx-example
   rules:
@@ -16,3 +21,4 @@ spec:
             name: rust-app-service
             port:
               number: 80
+

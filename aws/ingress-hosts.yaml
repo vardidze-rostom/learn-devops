@@ -20,5 +20,5 @@ spec:
           service:
             name: rust-app-service
             port:
-              number: 80
+              number: 443
 

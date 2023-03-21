@@ -4,3 +4,4 @@ container:
   image: ivan556/rust-hello-server
 
 replicaCount: 4
+revisHistLimit: 2

@@ -6,6 +6,7 @@ metadata:
     app : {{ .Release.Name }}-deployment
 spec:
   replicas: {{ .Values.replicaCount }}
+  revisionHistoryLimit: {{ .Values.revisHistLimit }}
   selector:
     matchLabels:
       project: {{ .Release.Name }}

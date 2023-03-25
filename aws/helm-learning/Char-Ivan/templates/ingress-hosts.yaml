@@ -11,22 +11,22 @@ metadata:
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:eu-central-1:031783097622:certificate/8a65a0eb-2a16-4065-8dcc-bab6bee25f95
 spec:
   rules:
-  - http:
-      paths:
-        - path: /
-          pathType: Prefix
-          backend:
-            service:
-              name: ssl-redirect
-              port:
-                name: use-annotation
- - host: vardidze.com
-    http:
-      paths:
-        - path: /
-          pathType: Prefix
-          backend:
-            service:
-              name: release-name-landing
-              port:
-                number: 443
+    - http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: ssl-redirect
+                port:
+                  name: use-annotation
+    - host: vardidze.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: release-name-landing
+                port:
+                  number: 443

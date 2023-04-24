@@ -27,6 +27,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: release-name-landing
+                name: {{ .Release.Name }}-service
                 port:
                   number: 443

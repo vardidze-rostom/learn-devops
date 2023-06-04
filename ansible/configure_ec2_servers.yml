@@ -1,0 +1,68 @@
+- name: Configure servers
+  hosts: learnDevOps
+  remote_user: ubuntu
+  become: yes
+  become_user: root
+  tasks:
+    - name: update system
+      apt:
+        update_cache: yes
+        upgrade: yes
+        cache_valid_time: 3600
+
+    # - name: Reboot the server
+    #   ansible.builtin.reboot:
+    #     pre_reboot_delay: 0
+    #     post_reboot_delay: 180 # задержка пере повторным подключение к серверу 
+
+    - name: install software
+      apt:
+        name: "{{ item }}"
+        state: latest
+      loop:
+        - docker
+        - docker-compose
+
+    - name: add ubuntu user to docker  group
+      user:
+        name: ubuntu
+        groups: docker
+        append: yes
+
+
+
+- hosts: ec2-3-68-159-211.eu-central-1.compute.amazonaws.com
+  remote_user: ubuntu
+  tasks:
+    - name: pull and run default image
+      shell: |
+        docker pull ivan556/go-webserver:latest &&\
+        docker run -d --name=go-webserver-default \
+         --restart unless-stopped -p 80:8080 ivan556/go-webserver:latest
+
+- hosts: ec2-54-93-80-40.eu-central-1.compute.amazonaws.com
+  remote_user: ubuntu
+  tasks:
+    - name: pull and run forum image
+      shell: |
+        docker pull ivan556/go-webserver:forum &&\
+        docker run -d --name=go-webserver-forum \
+         --restart unless-stopped -p 80:8080 ivan556/go-webserver:forum
+
+- hosts: ec2-3-125-52-48.eu-central-1.compute.amazonaws.com
+  remote_user: ubuntu
+  tasks:
+    - name: pull and run shop image
+      shell: |
+        docker pull ivan556/go-webserver:shop &&\
+        docker run -d --name=go-webserver-shop \
+         --restart unless-stopped -p 80:8080 ivan556/go-webserver:shop
+
+- hosts: ec2-3-70-201-203.eu-central-1.compute.amazonaws.com
+  remote_user: ubuntu
+  tasks:
+    - name: pull and run secret image
+      shell: |
+        docker pull ivan556/go-webserver:secret &&\
+        docker run -d --name=go-webserver-secret \
+         --restart unless-stopped -p 80:8080 ivan556/go-webserver:secret

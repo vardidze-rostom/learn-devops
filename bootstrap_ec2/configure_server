@@ -1,0 +1,13 @@
+#!/bin/bash
+
+sudo su
+
+apt update && apt upgrade -y
+
+apt install docker docker-compose -y
+
+usermod -aG docker ubuntu
+
+docker pull ivan556/go-webserver:latest &&\
+    docker run -d --name=go-webserver-default \
+    --restart unless-stopped -p 80:8080 ivan556/go-webserver:latest

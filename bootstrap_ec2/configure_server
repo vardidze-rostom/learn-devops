@@ -2,9 +2,7 @@
 
 sudo su
 
-apt update && apt upgrade -y
-
-apt install docker docker-compose -y
+apt update && apt install docker docker-compose -y
 
 usermod -aG docker ubuntu
 
